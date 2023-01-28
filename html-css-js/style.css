@@ -9,6 +9,10 @@ main {
     background-color: antiquewhite;
     border-radius: 20px;
     display: flex;
+    /* background: linear-gradient(#FF00D6, #00E0FF); */
+    background: linear-gradient(#FF00D6 0%, #00E0FF 100%);
+    
+    /* linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%); */
 }
 
 #form-div {
@@ -17,7 +21,7 @@ main {
     float: left;
     width: 80%;
     height: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 #form-div > * {
