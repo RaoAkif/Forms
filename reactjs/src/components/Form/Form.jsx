@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Styles.css"
+import google from '../../assets/google.svg';
+import facebook from '../../assets/facebook.svg';
 
 const Form = () => {
   return (
@@ -8,8 +10,10 @@ const Form = () => {
             <div id="form-div">
                 <div id="form-top-section">
                     <h1>Create Account</h1>
-                    <button className="social-login"><i className="fa-brands fa-google"></i>Sign up with Facebook</button>
-                    <button className="social-login"><i className="fa-brands fa-facebook"></i>Sign up with Google</button>
+                    <div className='log-buttons'>
+                        <button className="social-login"><img className="social-icons" src={google} alt="google logo" />Sign up with Facebook</button>
+                        <button className="social-login"><img className="social-icons" src={facebook} alt="facebook logo" />Sign up with Google</button>
+                    </div>
                 </div>
                 <p id="or-div">OR</p>
                 <form id="form" action="">
